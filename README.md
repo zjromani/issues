@@ -1,6 +1,6 @@
 # Issues
 
-**TODO: Add description**
+**Playing with Elixir**
 
 ## Installation
 
