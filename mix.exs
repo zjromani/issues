@@ -7,6 +7,8 @@ defmodule Issues.Mixfile do
       escript: escript_config,
       version: "0.1.0",
       elixir: "~> 1.5",
+      name: "Issues",
+      source_url: "https://github.com/zjromani/issues",
       start_permanent: Mix.env == :prod,
       deps: deps()
     ]
@@ -23,7 +25,9 @@ defmodule Issues.Mixfile do
   defp deps do
     [
       httpoison: "~> 0.9",
-      poison: "~> 2.2"
+      poison: "~> 2.2",
+      ex_doc: "~> 0.12",
+      earmark: "~> 1.0"
     ]
   end
 
